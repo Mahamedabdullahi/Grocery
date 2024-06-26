@@ -1,0 +1,145 @@
+*{
+
+}
+ /* Set the background image for the entire page */
+body {
+    background-image: url('manu.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat;
+    color: #fff;
+    flex-wrap: wrap;
+
+    
+}
+
+.container {
+  /* background-color: coral; */
+  overflow: hidden; /* Clipping the overflow */
+}
+
+a:link,
+    a:visited {
+        color: white;
+        /* You can add other styles here, such as text-decoration: none; */
+    }
+
+.grocery{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.head{
+    margin-left: 20px;
+}
+.ul{
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+
+}
+
+
+h1{
+    margin-top: 3px;
+    color: #fff;
+}
+
+span{
+    color: orange;   
+}
+
+.enjoy{
+    margin-top: 180px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    color: #fff;
+    text-decoration: #fff;
+}
+
+.links{
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    gap: 40px;
+    height: 20px;
+    color: #fff;
+}
+
+.learn{
+    height: 25px;
+    width: 150px;
+    border-radius: 15px;
+    background-color: transparent;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.join{
+    height: 25px;
+    width: 140px;
+    border-radius: 15px;
+    background-color: transparent;
+    text-align: center;
+    color: #fff;
+}
+
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 40%;
+}
+
+  @media (min-width: 9px) and (max-width: 991px) {
+    /* Styles for mobile devices */
+    /* Adjust font sizes, margins, paddings, etc. */
+  }
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+    /* Styles for tablets and notebooks */
+    /* Adjust columns, font sizes, etc. */
+  }
+  
+  
+  @media (min-width: 1200px) {
+      /* Styles for desktop screens */
+      /* Wider columns, larger fonts, etc. */
+    }
+    
+    
+    @media (min-width: 1920px) {
+      /* Styles for TV screens */
+      /* Further adjustments if needed */
+    }
+    
+
+
+    #register-form {
+        width: 50%;
+        margin: 40px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      #register-form label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      #register-form input[type="text"], #register-form input[type="email"], #register-form input[type="password"] {
+        width: 100%;
+        height: 40px;
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+      }
+      #register-form input[type="submit"] {
+        display: none; /* Hide the submit button */
+      }

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css3?family=Montserrat:wgh@300;400;600;700;&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('manu.jpg');
+    background-size: full; /* Adjust as needed */
+    background-repeat: no-repeat;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200%;
+  height: 200%;
+  background-color: rgb(239, 241, 243);
+  border-radius: 10px;
+  box-shadow: 5px 5px 30px black;
+  border-radius: 10px;
+  margin-left: -130px ;
+  margin-top: 10%;
+  margin-bottom: -60%;
+}
+
+form input{
+    width: 70%;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 6px black;
+    border-radius: 10px;
+    padding-left: 0px;
+    background-color: #fff;
+
+}
+
+form h1{
+    font-size: 24px;
+    color: rgba(47,142,214);
+    margin-bottom: 20px;
+    width: 80px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px black;
+    margin-top: 20px;
+}
+
+input.login{
+    background-color: #fff;
+    color: rgba(47,142,214);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+img {
+
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 10px;
+}
+
+span{
+    color: orange;
+    font-style:oblique;
+    font-weight: 900;
+    
+}
+
+h1{
+    font-weight: 900;
+}
+
+.head{
+    text-align: center;
+    font-family:cursive;
+    justify-content: center;
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 30px;
+
+
+}
+
+
+/* styles.css */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 40%;
+}
+
+
+
+@media (min-width: 9px) and (max-width: 991px) {
+    /* Styles for mobile devices */
+    /* Adjust font sizes, margins, paddings, etc. */
+  }
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+    /* Styles for tablets and notebooks */
+    /* Adjust columns, font sizes, etc. */
+  }
+  
+  
+  @media (min-width: 1200px) {
+      /* Styles for desktop screens */
+      /* Wider columns, larger fonts, etc. */
+    }
+    
+    
+    @media (min-width: 1920px) {
+      /* Styles for TV screens */
+      /* Further adjustments if needed */
+    }
